@@ -1,0 +1,102 @@
+body, html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    height: 100%;
+    box-sizing:content-box;
+    background-color: #040D1B;
+    justify-content: center;
+  }
+  .web3{
+    margin-top: -20vh;
+  }
+  .product{
+    width: 13vw;
+    height: 24vh;
+    /* background-color:#EEE8D9; */
+  }
+  #shirt{
+    margin-top: -70vh;
+    margin-left: 10vw;
+  }
+  #tsh{
+   position: absolute;
+    margin-left: 16vh;
+  }
+  #tshh{
+    position: absolute;
+    margin-left: 16vh;
+  }
+  #bag{
+    margin-top: 12vh;
+    margin-left: 16vw;
+  }
+  #tsh{
+    position: absolute;
+     margin-left: 16vh;
+   }
+   #tshh{
+     position: absolute;
+     margin-left: 16vh;
+   }
+  #flesh{
+    margin-top: -25vh;
+    margin-left: 86vw;
+  }
+  #tsh{
+    position: absolute;
+     margin-left: 16vh;
+   }
+   #tshh{
+     position: absolute;
+     margin-left: 16vh;
+   }
+  #book{
+    margin-top: -58vh;
+    margin-left: 49vw;
+    rotate: 27deg;
+  }
+  #tsh{
+    position: absolute;
+     margin-left: 16vh;
+   }
+  p{
+    font-family: CommonsNm;
+    font-size: 2vh;
+    margin-top: 1.5vh;
+    color: #EEE8D9;
+  }
+  .magaz{
+    width: 10vw;
+    height: 10vh;
+  }
+  #b{
+    position: absolute;
+     margin-left: 9vh;
+     margin-top: -1vh;
+   }
+  #shrt{
+    margin-top: -30vh;
+    margin-left: 25vw;
+  }
+  #bg{
+    margin-top: 53vh;
+    margin-left: 30vw;
+  }
+  #bk{
+    margin-top: -60vh;
+    margin-left: 76vw;
+  }
+  #k{
+    position: absolute;
+     margin-left: 9vw;
+     margin-top: -1vh;
+   }
+  #fsh{
+    margin-top: 27vh;
+    margin-left: 72vw;
+  }
+  #f{
+    position: absolute;
+     margin-left: 7vw;
+     margin-top: -1vh;
+   }

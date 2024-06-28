@@ -1,0 +1,90 @@
+body, html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    height: 100%;
+    box-sizing:content-box;
+    background-color: #040D1B;
+    justify-content: center;
+  }
+  .web4{
+    margin-top: -22vh;
+  }
+  .data{
+    display: flex;
+    align-items: center;
+    width:15vw;
+    height:28vh;
+    background-color:#EEE8D9;
+    margin-left: 14vw;
+    z-index: 1;
+  }
+  .datas{
+    font-size:2.5vh;
+    font-family: CommonsDm;
+    color: #040D1B;
+    margin-left: -11vw;
+    margin-top: 12vh;
+  }
+  #april{
+    margin-top: -265vh;
+  }
+  #march{
+    margin-top:75vh;
+    margin-left:48vw;
+  }
+  #december{
+    margin-top:33vh;
+    margin-left:67vw;
+  }
+  #ny{
+    margin-left: -9vw;
+  }
+  .light1{
+    margin-top: -228vh;
+    margin-left: 40vh;
+    opacity: 100%;
+  }
+  .light2{
+    margin-top: -173vh;
+    margin-left: 0vh;
+    opacity: 100%;
+  }
+  .light3{
+    margin-top: -73vh;
+    margin-left: -1vw;
+    opacity: 100%;
+  }
+  #eve{
+    margin-top: -12vh;
+  }
+  .foot{
+    font-size: 2.5vh;
+    line-height: 4.5vh;
+    margin-left: 2vw;
+    font-family: CommonsDm;
+    color: #040D1B;
+  }
+  #adress{
+    margin-left: 4vw;
+  }
+  #auth{
+    margin-top: 4vh;
+    margin-left: 6vw;
+  }
+  #group{
+    margin-top: 4vh;
+  }
+  #teacher{
+    margin-top: 4vh;
+  }
+  .socmed{
+    margin-left: 2vw;
+    width: 5vw;
+  }
+  #vk{
+    margin-left: 7vw;
+  }
+ 
+
+
+  

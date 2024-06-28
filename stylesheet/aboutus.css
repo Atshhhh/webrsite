@@ -1,0 +1,293 @@
+body, html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    height: 100%;
+    box-sizing:content-box;
+    background-color: #040D1B;
+    justify-content: center;
+  }
+  h1{
+    font-family: CommonsDm;
+    font-size: 4vh;
+    color: #EEE8D9;
+  }
+  h2{
+    font-family: CommonsBd;
+    font-size:50vh;
+    color: #EEE8D9;
+  }
+  h3{
+    font-family: CommonsBd;
+    font-size:8vh;
+    color: #EEE8D9;
+  }
+  h4{
+    font-family: CommonsMd;
+    color: #EEE8D9;
+    font-size: 3vh;
+    margin-top: 1vh;
+  }
+  h5{
+    font-family: CommonsDm;
+    font-size: 4vh;
+    color: #EEE8D9;
+  }
+  h6{
+    font-family: CommonsBd;
+    font-size: 7vh;
+    color: #040D1B;
+    margin-top:-10vh;
+    margin-left:4vh;
+  }
+  .head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+  }
+  .menu{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-style: none;
+  outline: none;
+  color: antiquewhite;
+  background-color: #040D1B;
+  font-family: CommonsMd;
+  font-size: 4.5vh;
+  margin-left:5vw;
+  margin-top: 3vh;
+  color: antiquewhite;
+  z-index: 2;
+}
+#aboutus{
+margin-left:13vw;
+}
+.web1{
+  margin-top: -20vh;
+  margin-left: 0vw;
+}
+.textabout{
+  width: 15w;
+  height: 15vh;
+  margin-top: 20vh;
+  margin-left: 4vw;
+}
+#merch{
+  margin-top: 30vh;
+  margin-left: 35vw;
+}
+.build{
+  margin-left: 20vw;
+  margin-top: -120vh;
+  z-index: 0;
+}
+.web2{
+  margin-top: -20vh;
+}
+.maintext{
+  margin-top: -380vh;
+  margin-left: 55vw;
+}
+.show{
+position: relative;
+height: 50vh;
+width: 30vw;
+background-color: #EEE8D9;
+margin-left: 8vw;
+margin-top: -50vh;
+}
+.screen{
+  position: absolute;
+  opacity: 100%;
+}
+.tables{
+  position: absolute;
+  animation: tbs 8s linear infinite;
+}
+@keyframes tbs{
+  0%{opacity: 0%;}
+  10%{opacity: 0%;}
+  20%{opacity: 100%;}
+  40%{opacity:100%}
+  50%{opacity:0%}
+  100%{opacity:0%}
+}
+.light{
+  position: absolute;
+  animation: ltn 8s linear infinite;
+}
+@keyframes ltn{
+  0%{opacity: 0%;}
+  40%{opacity:0%}
+  50%{opacity:100%}
+  70%{opacity:100%}
+  80%{opacity:0%}
+  100%{opacity:0%}
+}
+.stage{
+  position: absolute;
+  animation: stg 8s linear infinite;
+}
+@keyframes stg{
+  0%{opacity: 0%;}
+  70%{opacity:0%}
+  80%{opacity:100%}
+  90%{opacity:100%}
+  100%{opacity:0%}
+}
+.slideshow{
+  width: 100%;
+  height: 80vh;
+  margin-top:77vh;
+  position: relative;
+}
+
+.slide1{
+  position: absolute;
+  margin-top: 15vh;
+  margin-left: 5vw;
+  opacity: 100%;
+}
+.slide2{
+  position: absolute;
+  margin-top: 15vh;
+  margin-left: 15vw;
+}
+.slide3{
+  position: absolute;
+  margin-top: 15vh;
+  margin-left: 30vw;
+}
+.slide4{
+  position: absolute;
+  margin-top: 15vh;
+  margin-left:45vw;
+}
+#frst{
+  margin-top: 20vh;
+  margin-left: 7vw;
+  rotate: -27deg;
+}
+#scnd{
+  margin-top: -25vh;
+  margin-left: 32vw;
+  rotate: 16deg;
+}
+#thrd{
+  margin-top: -88vh;
+  margin-left: 60vw;
+  rotate: -29deg;
+}
+#win{
+  margin-top: 40vh;
+  margin-left: 45vh;
+}
+#zone{
+  margin-top: -40vh;
+  margin-left: 95vh;
+}
+#year{
+  margin-top: -30vh;
+  margin-left: 145vh;
+}
+.contact{
+  width: 40vw;
+  height: 45vh;
+  background-color: #EEE8D9;
+  margin-top:50vh;
+  margin-left:15vh;
+  display: flex;
+  justify-content: center;
+}
+#notify{
+color: #040D1B;
+align-self: center;
+}
+input[type="text"] {
+  font-family: CommonsDm; 
+  font-size: 3vh; 
+  line-height: 20vh;
+}
+.write{
+  margin-left: 60vw;
+  line-height: 25vh;
+}
+#name{
+  margin-top: -65vh;
+}
+#surname{
+  margin-top: -20vh;
+}
+.in{
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.text-field__input {
+  display: block;
+  width: 40vw;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: CommonsDm;
+  font-size: 4vh;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #EEE8D9;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+#send{
+  width: 12vw;
+  height: 10vh;
+  border-width: 3px;
+  margin-left: 75vw;
+  margin-top: 5vh;
+  font-family: CommonsDm;
+  font-size: 3vh;
+}
+.lines{
+  width: 40vw;
+  height: 0.5vh;
+  background-color: #EEE8D9;
+  margin-top: 11vh;
+  margin-left: 60vw;
+}
+#top{
+  margin-top: -39vh;
+}
+.footer{
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 13vh;
+  margin-top: 20vh;
+  background-color: #EEE8D9;
+}
+.foot{
+  font-size: 2.5vh;
+  line-height: 4.5vh;
+  margin-left: 2vw;
+  font-family: CommonsDm;
+  color: #040D1B;
+}
+#adress{
+  margin-left: 4vw;
+}
+#auth{
+  margin-top: 4vh;
+  margin-left: 6vw;
+}
+#group{
+  margin-top: 4vh;
+}
+#teacher{
+  margin-top: 4vh;
+}
+.socmed{
+  margin-left: 2vw;
+  width: 5vw;
+}
+#vk{
+  margin-left: 7vw;
+}
+
+  

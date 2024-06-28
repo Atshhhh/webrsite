@@ -1,0 +1,47 @@
+@import 'reset.css';
+@import 'main.css';
+@import 'aboutus.css';
+@import 'shop.css';
+@import 'events.css';
+@import 'responsive.css';
+
+@font-face {
+    font-family:CommonsBk;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ Black.ttf);
+}
+@font-face {
+    font-family:CommonsBd;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ Bold.ttf)
+}
+@font-face {
+    font-family:CommonsDm;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ DemiBold.ttf);
+}
+@font-face {
+    font-family:CommonsXBk;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ ExtraBlack.ttf);
+}
+@font-face {
+    font-family:CommonsXLt;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ ExtraLight.ttf);
+}
+@font-face {
+    font-family:CommonsLt;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ Light.ttf);
+}
+@font-face{
+    font-family:CommonsMd;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ Medium.ttf);
+}
+@font-face{
+    font-family:CommonsNm;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ Normal.ttf);
+}
+@font-face{
+    font-family:CommonsRg;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ Regular.ttf);
+}
+@font-face{
+    font-family:CommonsTn;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ Thin.ttf);
+}
